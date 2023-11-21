@@ -19,19 +19,24 @@
         <link rel="stylesheet" href="/styles.css?2.0">
     </head>
     <body>
-        <div class="background bg">
+        <div class="gxbg bg">
             <button class="menubtn" onclick="showMenu()">menu</button>
             <div class="breathemenu" style="display: none;">
                 <div class="options">
-                    <button class="option selected" onclick="softRedirect('/')">Circle Exercise</button>
-                    <button class="option" onclick="softRedirect('/music')">Calming Music</button>
+                    <button class="option" onclick="softRedirect('/')">Circle Exercise</button>
+                    <button class="option selected" onclick="softRedirect('/music')">Calming Music</button>
                 </div>
             </div>
-            <div class="circle"></div>
-            <span class="status">Inhale...</span>
-            <div class="statusbar"><div class="statusbarwidth1"></div><div class="statusbarwidth2"></div><div class="statusbarwidth3"></div><div class="statusbarwidth4"></div></div>
+            <div class="optionsmusic">
+                <button class="option" onclick="changeSong('evolve')" id="evolve">Evolve - Berlinist</button>
+                <button class="option" onclick="changeSong('restoration')" id="restoration">Restoration - Brian Hazerjian</button>
+                <button class="option" onclick="changeSong('confluence')" id="confluence">Confluence - Dominik Kalajdzic</button>
+                <button class="option" onclick="changeSong('radiant')" id="radiant">Radiant - Ian Kaneko</button>
+                <button class="option" onclick="changeSong('seismicsouls')" id="seismicsouls">Seismic Souls - NUYA</button>
+                <audio class="optionaudio" loop></audio>
+            </div>
         </div>
     </body>
+    <script src="/assets/scripts/musicscript.js?2.0"></script>
     <script src="/assets/scripts/script.js?2.0"></script>
-    <script src="/assets/scripts/breathescript.js?2.0"></script>
 </html>
