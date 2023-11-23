@@ -5,5 +5,5 @@ Welcome to Soothica - Breathe in, and out.
 ## Version 2.0 [Link](https://gitlab.com/Zakemski/soothica/-/tree/0b0836d385e382252d718cf063e79b0ed39ee02c)
 - Added menu
 - Added music
-## Version 3.0
+## Version 3.0 [Link](https://gitlab.com/Zakemski/soothica/-/tree/6aa73db8727ba5094f3e915957e4fbb9b96e606d)
 - Added sounds
