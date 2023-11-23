@@ -15,29 +15,28 @@
         <meta name="keywords" content="breathe, soothica, calm">
         <link rel="icon" type="image/x-icon" href="Favicon">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Soothica - Calming Music</title>
+        <title>Soothica - Sounds</title>
         <link rel="stylesheet" href="/styles.css?2.0">
     </head>
     <body>
-        <div class="gxbg bg">
+        <div class="ntbg bg">
             <button class="menubtn" onclick="showMenu()">menu</button>
             <div class="breathemenu" style="display: none;">
                 <div class="options">
                     <button class="option" onclick="softRedirect('/')">Circle Exercise</button>
-                    <button class="option selected" onclick="softRedirect('/music')">Calming Music</button>
-                    <button class="option" onclick="softRedirect('/sounds')">Ambient Sounds</button>
+                    <button class="option" onclick="softRedirect('/music')">Calming Music</button>
+                    <button class="option selected" onclick="softRedirect('/sounds')">Ambient Sounds</button>
                 </div>
             </div>
             <div class="optionsmusic">
-                <button class="option" onclick="changeSong('evolve')" id="evolve">Evolve - Berlinist</button>
-                <button class="option" onclick="changeSong('restoration')" id="restoration">Restoration - Brian Hazerjian</button>
-                <button class="option" onclick="changeSong('confluence')" id="confluence">Confluence - Dominik Kalajdzic</button>
-                <button class="option" onclick="changeSong('radiant')" id="radiant">Radiant - Ian Kaneko</button>
-                <button class="option" onclick="changeSong('seismicsouls')" id="seismicsouls">Seismic Souls - NUYA</button>
+                <button class="option" onclick="changeSong('white')" id="white">White Noise</button>
+                <button class="option" onclick="changeSong('river')" id="river">River</button>
+                <button class="option" onclick="changeSong('park')" id="park">Park</button>
                 <audio class="optionaudio" loop></audio>
             </div>
         </div>
     </body>
-    <script src="/assets/scripts/musicscript.js?2.0"></script>
+    <script src="/assets/scripts/loopify.js" type="text/javascript"></script>
+    <script src="/assets/scripts/soundscript.js?2.0"></script>
     <script src="/assets/scripts/script.js?2.0"></script>
 </html>
