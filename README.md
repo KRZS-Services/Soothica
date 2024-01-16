@@ -1,5 +1,5 @@
 # Welcome to Soothica!
-This is the official code repository for Blueberry Task Manager. **Soothica is a part of the KRZS LoS (Line of Services). Visit our website at https://krzs.xyz.**
+This is the official code repository for Soothica. **Soothica is a part of the KRZS LoS (Line of Services). Visit our website at https://krzs.xyz.**
 
 Looking for the changelog? https://github.com/KRZS-Services/Soothica/blob/main/Changelog.md
 
